@@ -28,8 +28,14 @@ This integration solves my problem by:
 3. Uploading each note as a new page in the Insights database
    1. correctly linked to the relevant Quote in the Quotes database
 
-**Known bugs**
+# **Known bugs**
 
 The Notion integration works to update and retrieve databases and pages. However, the code which scrapes the Kindle notebook has the following issues to be worked out.
 
 - There is a bug which adds Kindle notes to both the Quotes and the Insights databases, when they should go only to the Insights database.
+
+# Usage
+
+Replace all the values in `.env` to suit your Notion setup. Once you've done that, make sure you download the highlights notebook from the Kindle book of your choosing.
+
+Run `run_script.py` and follow the prompts, entering the path to the highlights file when asked. The script should handle the rest.
