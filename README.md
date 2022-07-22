@@ -1,6 +1,9 @@
 ## 🚧 This code is a work in progress.
 
 <aside>
+
+This tool scrapes a downloaded file of any Kindle book's highlights notebook, and stores the contents in a Notion database.
+
 Notion’s databases are ideal for anyone engaged in research, or as an active reading tool.
 
 [Click here for a practical example](https://www.notion.so/Notion-as-a-Research-Tool-f5241a5a209b4ce4a7a7489b8c63c876) of 3 related Notion databases to help organize research materials, which is set up to use this API integration to import highlights from Kindle books.
